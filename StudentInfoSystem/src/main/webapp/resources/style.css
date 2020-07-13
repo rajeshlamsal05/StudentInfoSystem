@@ -1,0 +1,17 @@
+
+label{
+	font-weight: bold; font-family: serif; background-color: cyan; margin: 10px;
+}
+input {
+	margin: 0px 5px 20px 5px;
+}
+#f{
+	width: 500px;
+	background-color: yellow;
+	margin-left: 400px;
+}
+.g{
+	border-color: blue;
+	border-width:medium;
+
+}
