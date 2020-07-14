@@ -18,7 +18,11 @@
 	src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script
 	src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--local style sheets  -->
 <link rel="stylesheet" href="resources/css/resetPassword.css">
+<link rel="stylesheet" href="resources/css/global.css">
+<link rel="stylesheet" href="resources/css/animations/keyframes.css">
 <title>Change Password</title>
 </head>
 <body>
@@ -26,14 +30,15 @@
 	<div class="wrapper fadeInDown">
 		<div id="formContent">
 
-			<div class="fadeIn first">
-				<img src="resources/images/resetPassword/wrench.png" id="icon"
-					alt="User Icon" />
-			</div>
+			
 			<h2 class="text-center text-blue pt-5">Change Password</h2>
 			<br> <br>
 			<!-- Login Form -->
 			<form class="form-signin" action="update_password" method="post">
+			<div class="fadeIn first">
+				<img src="resources/images/resetPassword/wrench.png" alt="User Icon"
+					id="icon" /><br><br>
+			</div>
 				<span style="color: red">${passwordNotMatched}</span> <input
 					type="password" id="inputPassword" class="form-control"
 					placeholder="Current Password" name="password" required autofocus>
