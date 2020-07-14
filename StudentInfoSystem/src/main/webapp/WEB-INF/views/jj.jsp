@@ -1,7 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
 <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css" />
 <link rel="stylesheet" href="resources/resetPassword.css" />
 <script type="text/javascript" src="resources/jquery.js"></script>
@@ -15,47 +11,48 @@
 	src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script
 	src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<head>
-<meta charset="UTF-8">
-<title>Change Password</title>
-</head>
-<body>
 
-	<div class="wrapper fadeInDown">
-		<div id="formContent">
-
-			<div class="fadeIn first">
-				<img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon"
-					alt="User Icon" />
-			</div>
-			<h2 class="text-center text-blue pt-5">Change Password</h2>
-			<br> <br>
-			<!-- Login Form -->
-			<form class="form-signin" action="update_password" method="post">
-				<span style="color: red">${passwordNotMatched}</span> <input
-					type="password" id="inputPassword" class="form-control"
-					placeholder="Current Password" name="password" required autofocus>
-				<br> <input type="password" id="inputPassword"
-					class="form-control" name="password" placeholder="New Password"
-					required autofocus>
-
-				<div id="formFooter">
-					<button class="btn btn-primary " type="submit">GO !!</button>
-				</div>
-			</form>
+<%-- <%@ include file="header.jsp" %>
+ --%>
 
 
 
 
+<div class="wrapper fadeInDown">
+	<div id="formContent">
+
+		<div class="fadeIn first">
+			<img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon"
+				alt="User Icon" />
 		</div>
+		<h2 class="text-center text-blue pt-5">Change Password</h2>
+		<br> <br>
+		<!-- Login Form -->
+		<form class="form-signin" action="update_password" method="post">
+			<span style="color: red">${passwordNotMatched}</span> <input
+				type="password" id="inputPassword" class="form-control"
+				placeholder="Current Password" name="password" required autofocus>
+			<br> <input type="password" id="inputPassword"
+				class="form-control" name="password" placeholder="New Password"
+				required autofocus>
+
+			<div id="formFooter">
+				<button class="btn btn-primary " type="submit">GO !!</button>
+			</div>
+		</form>
+
+
+
+
 	</div>
+</div>
 
 
 
 
 
 
-	<style>
+<style>
 
 /* BASIC */
 html {
@@ -248,10 +245,6 @@ opacity
 
 
 
-
-
-
-
 :
 
 
@@ -283,15 +276,7 @@ opacity
 
 
 
-
-
-
-
 1
-
-
-
-
 
 
 
@@ -352,10 +337,6 @@ opacity
 
 
 
-
-
-
-
 :
 
 
@@ -387,15 +368,7 @@ opacity
 
 
 
-
-
-
-
 none
-
-
-
-
 
 
 
@@ -456,10 +429,6 @@ transform
 
 
 
-
-
-
-
 :
 
 
@@ -491,15 +460,7 @@ transform
 
 
 
-
-
-
-
 none
-
-
-
-
 
 
 
@@ -569,17 +530,9 @@ keyframes fadeInDown { 0% {
 
 
 
-
-
-
-
 %
 {
 opacity
-
-
-
-
 
 
 
@@ -641,15 +594,7 @@ opacity
 
 
 
-
-
-
-
 1
-
-
-
-
 
 
 
@@ -710,10 +655,6 @@ opacity
 
 
 
-
-
-
-
 :
 
 
@@ -745,15 +686,7 @@ opacity
 
 
 
-
-
-
-
 none
-
-
-
-
 
 
 
@@ -814,10 +747,6 @@ transform
 
 
 
-
-
-
-
 :
 
 
@@ -849,15 +778,7 @@ transform
 
 
 
-
-
-
-
 none
-
-
-
-
 
 
 
@@ -987,11 +908,3 @@ to {
 	width: 60%;
 }
 </style>
-
-
-
-
-
-
-</body>
-</html>
