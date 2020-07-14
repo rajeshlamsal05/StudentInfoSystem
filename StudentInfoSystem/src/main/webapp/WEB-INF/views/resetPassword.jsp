@@ -23,22 +23,23 @@
 <link rel="stylesheet" href="resources/css/resetPassword.css">
 <link rel="stylesheet" href="resources/css/global.css">
 <link rel="stylesheet" href="resources/css/animations/keyframes.css">
-<title>Change Password</title>
+<%@ include file="navBar.jsp"%>
+<title>Password Change</title>
 </head>
 <body>
 
 	<div class="wrapper fadeInDown">
 		<div id="formContent">
 
-			
+
 			<h2 class="text-center text-blue pt-5">Change Password</h2>
 			<br> <br>
 			<!-- Login Form -->
 			<form class="form-signin" action="update_password" method="post">
-			<div class="fadeIn first">
-				<img src="resources/images/resetPassword/wrench.png" alt="User Icon"
-					id="icon" /><br><br>
-			</div>
+				<div class="fadeIn first">
+					<img src="resources/images/resetPassword/wrench.png"
+						alt="User Icon" id="icon" /><br> <br>
+				</div>
 				<span style="color: red">${passwordNotMatched}</span> <input
 					type="password" id="inputPassword" class="form-control"
 					placeholder="Current Password" name="password" required autofocus>
