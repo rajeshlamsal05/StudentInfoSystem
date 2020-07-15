@@ -19,7 +19,7 @@
 	src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <!--local style sheets  -->
-<link rel="stylesheet" href="resources/css/resetPassword.css">
+<!-- <link rel="stylesheet" href="resources/css/resetPassword.css"> -->
 <link rel="stylesheet" href="resources/css/global.css">
 <link rel="stylesheet" href="resources/css/choose.css">
 <link rel="stylesheet" href="resources/css/animations/keyframes.css">
@@ -29,8 +29,8 @@
 </head>
 <body>
 
+	<div id="section">
 
-	
 		<div id="formContentChoose">
 
 
@@ -41,13 +41,13 @@
 
 			<div>
 				<div class="fadeIn first" id="left">
-					<a href="admin_login"><img
+					<a href="admin_login">Admin<img
 						src="resources/images/resetPassword/wrench.png"
 						alt="Administrator" id="iconChoose" /></a>
 
 				</div>
 				<div class="fadeIn first" id="right">
-					<a href="student_login"><img
+					<a href="student_login">Student<img
 						src="resources/images/resetPassword/wrench.png" alt="User Icon"
 						id="iconChoose" /></a>
 
@@ -55,15 +55,8 @@
 			</div>
 			<br> <br> <br>
 
-
-
-
-
-
-
-
 		</div>
+	</div>
 
-	
 </body>
 </html>
