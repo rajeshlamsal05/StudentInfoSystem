@@ -1,0 +1,40 @@
+#left {
+	float: right;
+	width: 50%;
+}
+
+#right {
+	float: left;
+	width: calc(100% - 50%);
+}
+
+#formContentChoose {
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	background: #fff;
+	padding: 30px 30px 30px 30px;
+	width: 90%;
+	max-width: 450px;
+	position: relative;
+	padding: 0px;
+	-webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+	text-align: center;
+	float: center;
+}
+
+#iconChoose {
+	width: 60%;
+}
+
+#section {
+	background: black;
+	color: white;
+	border-radius: 1em;
+	padding: 1em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
